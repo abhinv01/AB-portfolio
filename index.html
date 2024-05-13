@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="I am a frontend developer">
+    <meta name="description" content="This is personal portfolio webapp of Abhinav Babar">
+    <title>ABhinav - Frontend developer.</title>
+
+
+    <!-- ----------------------favicon------------ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io_charm/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io_charm/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io_charm/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io_charm/site.webmanifest">
+
+
+    <!-- ----------------------fonts ------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <!-- --------------------css----------------- -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- -------------------preload------------------------ -->
+    <link rel="preload" href="./images/hero.jpg" as="image"> 
+
+
+    <!-- --------------------icons------------------------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+
+
+<body class="nunito-sans-font-style">
+
+    <!-- -----------------------------------------header and nav-------------------------------------- -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo charm-regular">ABhinav</a>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo charm-bold" style="color: var(--white);">
+                        Abhinav
+                    </a> 
+                    <button class="nav-class-btn" data-nav-toggle >
+                        <i class="bi bi-x-lg"></i>
+                    </button>  
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    
+                    <li class="navbar-link">
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                    <li class="navbar-link" id="backToTop">
+                        <a href="./Resume.pdf" download="Abhinav Resume">Resume</a>
+                    </li>
+                
+                </ul>
+
+                <div class="wrapper">
+                    <a target="_blank" target="_blank" href="mailto:abhinavbabar001@email.com" class="contact-link">abhinavbabar001@email.com</a>
+        
+                    <a target="_blank" href="tel:8412831283" class="contact-link">8412831283</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a target="_blank" href="https://twitter.com/Abhinav_Babar07" class="social-link">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </li>
+                <li>
+                    <a target="_blank" href="mailto:abhinavbabar001@email.com" class="social-link">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/abhinv01" class="social-link">
+                        <i class="bi bi-github"></i>                
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/Abhinav-Babar-07/" class="social-link">
+                        <i class="bi bi-linkedin"></i>                
+                    </a>
+                </li>
+                </ul>
+            </nav>
+
+            <button class="nav-open-btn">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- <div class="overlay"> -->
+
+        </div>
+
+        </div>
+    </header>
+
+
+    <!------------------------main---------------------  -->
+    <main>
+        <article>
+            
+            <!-- owner -->
+            <section class="section hero">
+                <div class="container">
+                    <figure class="hero-banner" data-reveal="left" data-onload="onload">
+                        <img src="./images/hero.jpg" alt="Owner's image" class="w-100" width="560" height="540">
+                        
+                        <!-- <img src="./images/hero-shape.svg" alt="" class="shape"> -->
+                    </figure>
+
+                    <div class="hero-content" data-reveal="right" data-onload="onload">
+                        <h1 class="h1 hero-title">
+                            I'm a frontend developer
+                        </h1>
+
+                        <p class="section-text">
+                            Hello I'm Abhinav, frontend-developer by profession and computer science engineer by academics based out in Pune, India. Passionate about learning and aspiring to be fullstack web developer.  
+                        </p>
+
+                        <div class="btn-wrapper">
+                            <a href="#projects" class="btn btn-primary">
+                                My work
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                Contact me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        
+        
+            <!-- about -->
+            <section class="about section" id="about" >
+                <div class="container">
+                    <div class="wrapper">
+                        <div data-reveal = left>
+                            <h2 class="h2 section-title">What I do?</h2>
+
+                            <p class="section-text">
+                                
+                                As a frontend developer proficient in JavaScript, HTML, CSS, Tailwind CSS, and Bootstrap, I possess a robust skill set that empowers you to craft immersive and visually stunning user experiences. With a deep understanding of client-side scripting and markup languages, I try to bring designs to life and creating dynamic, responsive web applications.
+                            </p>
+                        </div>
+                        <ul class="progress-list" data-reveal = right>
+                            <li class="progress-items">
+                                <div class="label-wrapper">
+                                    <p>HTML and Bootstrap</p>
+                                    <span class="span">100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 100%; background-color: #c7b1dd;">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="progress-items">
+                                <div class="label-wrapper">
+                                    <p>CSS</p>
+                                    <span class="span">80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 80%; background-color: #8caeec;">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="progress-items">
+                                <div class="label-wrapper">
+                                    <p>JavaScript</p>
+                                    <span class="span">85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 85%; background-color: #b0d4c1;">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="progress-items">
+                                <div class="label-wrapper">
+                                    <p>Tailwind</p>
+                                    <span class="span">85%</span>
+                                </div>
+                                
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                                  </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+
+                    <ul class="grid-list">
+                        <li data-reveal="left">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="./images/icon-1.svg" alt="web design" loading="lazy">
+                                </div>
+                                <h3 class="h4 card-title">
+                                    Web-development
+                                </h3>
+                                <p class="card-text">
+                                    With my diverse skill set and passion for frontend development,I'm poised to tackle any challenge and adapt to evolving technologies
+                                </p>
+                            </div>
+                        </li>
+                        <li data-reveal="right">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="./images/icon-3.svg" alt="web design" loading="lazy">
+                                </div>
+                                <h3 class="h4 card-title">
+                                    Design and Backend
+                                </h3>
+                                <p class="card-text">
+                                    I am dedicated to continuously expanding my skill set by exploring the principles of design and mastering backend technologies.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- project -->
+
+            <section class="section project" id="projects">
+                <div class="container">
+                    <div class="tittle-wrapper">
+
+                        <div>
+                            <h2 class="section-title h2" id="project-label">Latest project</h2>
+                            <p class="section-text">
+                                Checkout my latest projects
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card project-card-1" style="background-color: #fff2e5;">
+                                
+                                <div class="card-content" data-reveal="right">
+                                    <p class="card-tag" style="color: #ed9135;">
+                                        Web App
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        Timer
+                                    </h3>
+                                    <p class="card-text">This is a simple timer developed to solve a simple use case having timer running on your screen while you are on a break
+
+                                    </p>
+
+                                    <a href="https://abhinv01.github.io/Timer/" class="btn-text" target="_blank" target="_blank" style="color: #ed9135;">
+                                        <span class="span">See Project</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                    
+                                </div>
+                                <figure class="card-banner" data-reveal="left">
+                                    <img src="./images/timer.png" alt="" loading="lazy" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-2" style="background-color: #e6e6e6;">
+                                
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #4e4a4a;">
+                                        Web Game
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        Guess Game
+                                    </h3> 
+                                    <p class="card-text">You have to guess a number between 1 to 20 in 7 chances to win this game and set new highscore
+                                    </p>
+
+                                    <a href="https://abhinv01.github.io/guessMyNumber/" class="btn-text" target="_blank" style="color: #4e4a4a;">
+                                        <span class="span">See Project</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                    
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/guessGame.png" alt="" loading="lazy" class="w-100">
+
+                                </figure>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-1" style="background-color: #f1f5fd;">
+                                
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #3f78c0;">
+                                        Web Game
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        Smack Me
+                                    </h3> 
+                                    <p class="card-text">Select animal you want to smack and select difficulty level and press start. Upon starting you will have to smack animal to score a point and set new highscore
+                                    </p>
+
+                                    <a href="https://abhinv01.github.io/Smack-Me/" class="btn-text" target="_blank" style="color: #3f78c0;">
+                                        <span class="span">See Project</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                    
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/smack.png" alt="" loading="lazy" class="w-100">
+
+                                </figure>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-3" style="background-color: #f5faf7;">
+                                
+                                <div class="card-content" data-reveal="left"> 
+                                    <p class="card-tag" style="color: #7cb798;">
+                                        Web App
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        Draw
+                                    </h3> 
+                                    <p class="card-text">Simple web app for free hand drawing and feature to change width of pen and change color as well.
+                                    </p>
+
+                                    <a href="https://abhinv01.github.io/Canvas/" class="btn-text" target="_blank" style="color: #7cb798;">
+                                        <span class="span">See Project</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                    
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/draw.png" alt="" loading="lazy" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-3" style="background-color: #f4fbfc;">
+                                
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #3f78c0;">
+                                        Web App
+                                    </p>
+                                    <h3 class="h3 card-title">
+                                        Speech recognition
+                                    </h3> 
+                                    <p class="card-text">This app recognises speech as you speak in real time.(Try it out in chrome browser)
+                                    </p>
+
+                                    <a href="https://abhinv01.github.io/speech-recognition/" class="btn-text" target="_blank" style="color: #3f78c0;">
+                                        <span class="span">See Project</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+
+                                    
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/speech.png" alt="" loading="lazy" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                    </ul>
+                </div>    
+            </section>
+
+
+            <section class="section contact" id="contact">
+                <div class="container">
+                    <div class="contact-card">
+                        <div class="contact-content" data-reveal="left">
+                            <div class="card-icon">
+                                <img src="./images/icon-5.svg" alt="envelop-icon">
+                            </div>
+                            <h2 class="h2 section-title">
+                                If you like what you see, Let's get together.
+                            </h2>
+                            <p class="section-text">
+                                Using my skills, I try to get down to rapid solution, Reach out to me via this form. 
+                            </p>
+                        </div>
+                        
+                        <form action="" contact-form data-reveal="right">
+                                <div class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Name* " id="input-field-name" class="input-field" required>
+                                    <input type="email" name="email" placeholder="Email-ID* " id="input-field-email" class="input-field" required>
+                                </div>
+
+                                <textarea id="message" name="message" placeholder="Message* " class="input-field" required></textarea>
+
+                                <button type="submit" class="btn btn-secondary" id = "catchUp"> Let's catch up</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+
+    <!-- ---------------------Footer----------------------------- -->
+<footer>
+
+    <section class="section footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copyright">
+                    <i class="bi bi-c-circle"></i><span>Crafted with care</span>
+                </div>
+                <ul class="social-list">
+
+                    <li>
+                        <a target="_blank" href="#" class="social-link">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </li>
+                <li>
+                    <a target="_blank" href="#" class="social-link">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="#" class="social-link">
+                        <i class="bi bi-github"></i>                
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="#" class="social-link">
+                        <i class="bi bi-linkedin"></i>                
+                    </a>
+                </li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    
+</footer>
+    <!------------------------Script---------------------  -->
+    <script src="./index.js"></script>
+</body>
+</html>
