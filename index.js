@@ -9,16 +9,22 @@ const navClose = document.querySelector(".nav-class-btn")
 
 
 function navToggle(e){
-    // console.log(e.target);
-    navbar.classList.toggle("active")
-    document.body.classList.toggle("nav-active");
+    console.log(window.innerWidth);
+
+    if(window.innerWidth < 990){
+        console.log("toggle active",window.innerWidth < 990 );
+
+        navbar.classList.toggle("active")
+        document.body.classList.toggle("nav-active");
+    }
+   
 }
 
 navOpen.addEventListener("click",navToggle)
 // navClose.addEventListener("click",navToggle)
 
 navbar.addEventListener("click",(e) => {
-    console.log(e.target)
+    // console.log(e.target)
     if(e.target.matches("a") || e.target.matches(".bi-x-lg") || e.target.matches(".nav-class-btn")) navToggle()
     })
 
