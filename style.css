@@ -155,6 +155,10 @@ body.nav-active{
     overflow: hidden;
 }
 
+body:has(.navbar.active){
+    overflow: hidden;
+}
+
 /* *************************Scroll************************** */
 
 ::-webkit-scrollbar{width: 10px;}
@@ -318,9 +322,6 @@ h1,h2,h3,h4{
 
 /* **************************header**************************************** */
 
-.overlay{
-    display: none;
-}
 
 .header{
     position:absolute;

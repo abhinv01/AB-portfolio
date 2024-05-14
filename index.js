@@ -11,6 +11,7 @@ const navClose = document.querySelector(".nav-class-btn")
 function navToggle(e){
     // console.log(e.target);
     navbar.classList.toggle("active")
+    document.body.classList.toggle("nav-active");
 }
 
 navOpen.addEventListener("click",navToggle)
@@ -96,10 +97,10 @@ animatedEle.forEach((ele) => {
 
 document.getElementById("catchUp").onclick = function(e) {
     e.preventDefault();
-        console.log("A");
         // Get the user's message from the form
         let message = document.getElementById("message").value;
-    
+        console.log(message);
+
         // Replace 'your-email@example.com' with your preferred email address
         let emailAddress = 'abhinavbabar001@gmail.com';
     
